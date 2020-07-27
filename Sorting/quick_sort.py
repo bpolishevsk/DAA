@@ -1,39 +1,43 @@
-# quick sort
-def quick_sort(list2):
-    quick_sort_r(list2, 0, len(list2) - 1)
-    return list2
+# This function takes last element as pivot, places
+# the pivot element at its correct position in sorted
+# array, and places all smaller (smaller than pivot)
+# to left of pivot and all greater elements to right
+# of pivot
+def partition(arr, low, high):
+    i = (low - 1)  # index of smaller element
+    pivot = arr[high]  # pivot
+
+    for j in range(low, high):
+
+        # If current element is smaller than the pivot
+        if arr[j] < pivot:
+            # increment index of smaller element
+            i = i + 1
+            arr[i], arr[j] = arr[j], arr[i]
+
+    arr[i + 1], arr[high] = arr[high], arr[i + 1]
+    return (i + 1)
 
 
-# quick_sort_r, recursive (used by quick_sort)
-def quick_sort_r(list2, first, last):
-    if last > first:
-        pivot = partition(list2, first, last)
-        quick_sort_r(list2, first, pivot - 1)
-        quick_sort_r(list2, pivot + 1, last)
+# The main function that implements QuickSort
+# arr[] --> Array to be sorted,
+# low  --> Starting index,
+# high  --> Ending index
+
+# Function to do Quick sort
+def quickSort(arr, low, high):
+    if low < high:
+        # pi is partitioning index, arr[p] is now
+        # at right place
+        pi = partition(arr, low, high)
+
+        # Separately sort elements before
+        # partition and after partition
+        quickSort(arr, low, pi - 1)
+        quickSort(arr, pi + 1, high)
+
+    # main
 
 
-# partition (used by quick_sort_r)
-def partition(list2, first, last):
-    sred = (first + last) / 2
-    if list2[first] > list2[sred]:
-        list2[first], list2[sred] = list2[sred], list2[first]  # swap
-    if list2[first] > list2[last]:
-        list2[first], list2[last] = list2[last], list2[first]  # swap
-    if list2[sred] > list2[last]:
-        list2[sred], list2[last] = list2[last], list2[sred]  # swap
-    list2[sred], list2[first] = list2[first], list2[sred]  # swap
-    pivot = first
-    i = first + 1
-    j = last
-
-    while True:
-        while i <= last and list2[i] <= list2[pivot]:
-            i += 1
-        while j >= first and list2[j] > list2[pivot]:
-            j -= 1
-        if i >= j:
-            break
-        else:
-            list2[i], list2[j] = list2[j], list2[i]  # swap
-    list2[j], list2[pivot] = list2[pivot], list2[j]  # swap
-    return j
+array = list(map(int, input().split(" ")))
+print(quickSort(array, 0, len(array) - 1))
