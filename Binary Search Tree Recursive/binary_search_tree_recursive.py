@@ -1,11 +1,7 @@
 """
 This is a python3 implementation of binary search tree using recursion
 
-To run tests:
-python -m unittest binary_search_tree_recursive.py
-
-To run an example:
-python binary_search_tree_recursive.py
+Author : Sarvesh Kumar Sharma
 """
 import unittest
 
