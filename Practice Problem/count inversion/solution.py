@@ -15,5 +15,5 @@ def count_inversions(a):
 
 
 if __name__ == '__main__':
-    A = []
+    A = [2, 4, 5, 3, 6]
     count_inversions(A)
