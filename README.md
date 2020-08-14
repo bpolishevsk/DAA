@@ -1,6 +1,15 @@
 # DESIGN AND ANALYSIS OF ALGORITHMS
 
-## SORTING Algorithms
+### [Tree]
+
+* [AVL Tree](AVL Tree/avl_tree.py)
+* [Basic Binary Tree](Basic binary Tree/basic_binary_tree.py)
+* [Binary Search Tree](Binary Search Tree/binary_search_tree.py)
+* [Binary Search Tree Recursive](Binary Search Tree Recursive/binary_search_tree_recursive.py)
+* [Red Black Tree](Red Black Tree/red_black_tree.py)
+* []()
+
+### SORTING Algorithms
 
 
   * [BUBBLE SORT](https://github.com/shsarv/DAA/blob/master/Sorting/bubble_sort.py)
