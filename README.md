@@ -1,6 +1,6 @@
 # DESIGN AND ANALYSIS OF ALGORITHMS
 
-### [Tree]
+### Tree Implementations
 
 
 
