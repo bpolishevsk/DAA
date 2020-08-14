@@ -1,15 +1,9 @@
-# created
-# by
-# Sarvesh
-# kumar
-# sharma
+""" created by Sarvesh kumar sharma """
+
+'''implementation of the selection sort algorithm in Python'''
 
 
 def selection_sort(collection):
-    """
-    Pure implementation of the selection sort algorithm in Python
-    """
-
     length = len(collection)
     for i in range(length - 1):
         least = i
