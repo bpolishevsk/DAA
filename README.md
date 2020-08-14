@@ -4,7 +4,7 @@
 
 * [Tree Implementation](#tree-implementations)
 * [Sorting Algorithms](#sorting-algorithms)
-* [Contributions](#contribution)
+* [Contributions](#author)
 * [License](#license)
 
 
@@ -38,7 +38,7 @@
   * [Shell Sort](Sorting/shell_sort.py)
   
   
-  ### Contribution
+  ### Author
   
   [<img src="https://avatars2.githubusercontent.com/u/55739302?s=400&u=1e7714cb1cbe3437a527a877486c94611f0e7ab0&v=4" width="150">](https://github.com/shsarv)
   
