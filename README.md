@@ -2,7 +2,7 @@
 
 ## Index
 
-* [Tree Implementation](#tree-implementation)
+* [Tree Implementation](#tree-implementations)
 * [Sorting Algorithms](#sorting-algorithms)
 * [Contributions](#contribution)
 * [License](#license)
