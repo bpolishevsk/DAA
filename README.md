@@ -4,11 +4,11 @@
 
 
 
-  * [AVL Tree](https://github.com/shsarv/DAA/blob/master/AVL Tree/avl_tree.py)
-  * [Basic Binary Tree](https://github.com/shsarv/DAA/blob/master/Basic binary Tree/basic_binary_tree.py)
- 	* [Binary Search Tree](https://github.com/shsarv/DAA/blob/master/Binary Search Tree/binary_search_tree.py)
- 	* [Binary Search Tree Recursive](https://github.com/shsarv/DAA/blob/master/Binary Search Tree Recursive/binary_search_tree_recursive.py)
- 	* [Red Black Tree](https://github.com/shsarv/DAA/blob/master/Red Black Tree/red_black_tree.py)
+  * [AVL Tree](https://github.com/shsarv/DAA/blob/master/AVL%20Tree/avl_tree.py)
+  * [Basic Binary Tree](https://github.com/shsarv/DAA/blob/master/Basic%20binary%20Tree/basic_binary_tree.py)
+ 	* [Binary Search Tree](https://github.com/shsarv/DAA/blob/master/Binary%20Search%20Tree/binary_search_tree.py)
+ 	* [Binary Search Tree Recursive](https://github.com/shsarv/DAA/blob/master/Binary%20Search%20Tree%20Recursive/binary_search_tree_recursive.py)
+ 	* [Red Black Tree](https://github.com/shsarv/DAA/blob/master/Red%20Black%20Tree/red_black_tree.py)
 
 
 ### SORTING Algorithms
