@@ -1,5 +1,12 @@
 # DESIGN AND ANALYSIS OF ALGORITHMS
 
+## Index
+
+* [Tree Implementation](#tree-implementation)
+* [Sorting Algorithms](#sorting-algorithms)
+* [Contributions](#contribution)
+* [License](#license)
+
 ### Tree Implementations
 
 
