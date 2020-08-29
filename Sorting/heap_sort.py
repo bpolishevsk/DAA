@@ -1,3 +1,8 @@
+""" created by Sarvesh kumar sharma """
+
+'''implementation of the Heap sort algorithm in Python'''
+
+
 # heap sort
 def heap_sort(list2):
     first = 0
@@ -26,3 +31,9 @@ def establish_heap_property(list2, first, last):
             break
         list2[first], list2[k] = list2[k], list2[first]  # swap
         first = k
+
+
+if __name__ == "__main__":
+    user_input = input("Enter numbers separated by a comma:\n").strip()
+    unsorted = [int(item) for item in user_input.split(",")]
+    print(heap_sort(unsorted))

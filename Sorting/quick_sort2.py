@@ -1,5 +1,8 @@
-# created by
-# Sarvesh kumar sharma
+""" created by Sarvesh kumar sharma """
+
+'''implementation of the quick sort algorithm in Python'''
+
+
 def quick_sort(collection):
     length = len(collection)
     if length <= 1:

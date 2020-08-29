@@ -1,3 +1,8 @@
+""" created by Sarvesh kumar sharma """
+
+'''implementation of the Insertion sort algorithm in Python'''
+
+
 def insertion_sort(list2):
     n = len(list2)
     for i in range(1, n):
@@ -10,10 +15,7 @@ def insertion_sort(list2):
     return list2
 
 
-# main
-l = list(map(int, input("enter list items ").split(" ")))
-print(insertion_sort(l))
-
-#  output-----
-# enter list items 100 3 20 900 32 11
-# [3, 11, 20, 32, 100, 900]
+if __name__ == "__main__":
+    user_input = input("Enter numbers separated by a comma:\n").strip()
+    unsorted = [int(item) for item in user_input.split(",")]
+    print(insertion_sort(unsorted))

@@ -1,4 +1,8 @@
-# bubble sorting
+""" created by Sarvesh kumar sharma """
+
+'''implementation of the Bubble sort algorithm in Python'''
+
+
 def bubble_sort(list2):
     # Traverse through array elements 1 less then size of array
     n = len(list2)
@@ -18,8 +22,3 @@ def bubble_sort(list2):
 l = list(map(int, input("enter list items ").split(" ")))
 print(bubble_sort(l))
 
-# output-----
-# enter list items 40 10 39 99 46 15
-# [10, 15, 39, 40, 46, 99]
-#
-# Process finished with exit code 0

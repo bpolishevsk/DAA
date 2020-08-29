@@ -49,10 +49,3 @@ if __name__ == "__main__":
     user_input = input("Enter numbers separated by a comma:\n").strip()
     unsorted = [int(item) for item in user_input.split(",")]
     print(counting_sort(unsorted))
-
-"""
-
-Output :-
-    >>> counting_sort_string("thisisthestring")
-    'eghhiiinrsssttt'
-    """
